@@ -3,8 +3,8 @@ package com.dicemaster.server.api.server;
 import com.dicemaster.server.api.common.GameDTO;
 
 public abstract class GameParticipant {
-    abstract void notifyGameStateChange(GameDTO gameDTO);
-    abstract void registerPlayerEventHandler(PlayerEventHandler playerEventHandler);
+    public abstract void notifyGameStateChange(GameDTO gameDTO);
+    public abstract void registerPlayerEventHandler(PlayerEventHandler playerEventHandler);
 
     private String id;
 
