@@ -1,6 +1,6 @@
 package com.dicemaster.server.api.common;
 
-public abstract class GameDTO implements DTO {
+public abstract class GameDTO {
     private int id;
     private GameConfigDTO gameConfigDTO;
 
